@@ -1,2 +1,8 @@
 # Ignore the videos folder
 /videos/
+*.mp4
+*.mov
+*.avi
+*.wmv
+*.mkv
+*.webm
