@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Member Login | Norland Kenya</title>
+  <meta name="description" content="Access the Norland member portal, sign up with a sponsor code, or contact Norland Kenya for registration help.">
+  <link rel="stylesheet" href="styles.css?v=20261012-member-access">
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html"><img class="brand-logo" src="assets/images/norland-logo.png" alt="Norland official logo" width="44" height="44"><span class="brand-country">KENYA<small>WELLNESS · OPPORTUNITY · COMMUNITY</small></span></a>
+      <button class="menu-toggle" onclick="toggleMenu()" aria-label="Open navigation">☰</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a><a href="products.html">Products</a><a href="opportunity.html">Opportunity</a><a href="events.html">Events</a><a href="about.html">About</a><a href="members.html" aria-current="page">Member Login</a><a href="contact.html">Contact</a><a class="wa-btn" href="javascript:ready('Member support')">Chat on WhatsApp</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="eyebrow">Norland Kenya Members</div>
+      <h1>Member access</h1>
+      <p>Choose the option that fits your next step with Norland.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="member-grid">
+        <article class="member-card">
+          <div class="icon">01</div>
+          <h2>Already a member?</h2>
+          <p>Open Norland’s official desktop member portal and sign in with your member ID and password.</p>
+          <a class="btn btn-dark" href="https://zmd.nor-land.com/" target="_blank" rel="noopener noreferrer">Member Laptop Login</a>
+        </article>
+
+        <article class="member-card">
+          <div class="icon">02</div>
+          <h2>Have a sponsor code?</h2>
+          <p>Enter the member code of the person who introduced you. Registration continues on Norland’s official portal.</p>
+          <form class="form" onsubmit="beginMemberRegistration(event)">
+            <label for="sponsorCode">Sponsor/member code</label>
+            <input id="sponsorCode" name="sponsorCode" autocomplete="off" required>
+            <button class="btn btn-dark" type="submit">Sign up as a member</button>
+          </form>
+        </article>
+
+        <article class="member-card">
+          <div class="icon">03</div>
+          <h2>Don’t have a sponsor?</h2>
+          <p>Send your contact details to Norland Kenya and the team can help you with registration. The contact form opens a WhatsApp message for you to send.</p>
+          <a class="btn btn-dark" href="contact.html?segment=Member%20registration#member-contact">Submit your contact details</a>
+        </article>
+      </div>
+      <p class="member-note">Member sign-in and registration take place on Norland’s official portal. This website does not collect or store member passwords.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-bottom"><span>© 2026 Norland Kenya</span><span><a href="privacy.html">Privacy</a> · <a href="disclaimer.html">Disclaimers</a> · <a href="terms.html">Terms</a></span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
