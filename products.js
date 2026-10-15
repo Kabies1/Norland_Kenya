@@ -9,9 +9,14 @@
 
   grid.innerHTML = products.map((product, index) => {
     const href = `product.html?id=${encodeURIComponent(index)}`;
+    const isRecentlyAdded = index >= products.length - 6;
+    const imageSrc = isRecentlyAdded
+      ? `${product.image}?v=20261014-firefox-image-load`
+      : product.image;
+    const imageLoading = isRecentlyAdded ? 'eager' : 'lazy';
     return `<article class="product-card">
       <a class="product-card-link" href="${href}" aria-label="View details for ${escapeHtml(product.name)}">
-        <div class="product-image product-image-featured"><img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.alt)}" loading="lazy"></div>
+        <div class="product-image product-image-featured"><img src="${escapeHtml(imageSrc)}" alt="${escapeHtml(product.alt)}" loading="${imageLoading}" decoding="async"></div>
         <div class="product-body"><div class="eyebrow">Norland Kenya</div><h3>${escapeHtml(product.name)}</h3>
         <div class="product-price">${escapeHtml(product.price)}</div>
         <p class="small">${escapeHtml(product.description)}</p><span class="product-detail-link">View product details →</span></div>

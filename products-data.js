@@ -81,7 +81,14 @@ window.norlandProducts = [
     "price": "KSh 115,440.00",
     "image": "assets/images/wuqing-detox-pack.webp",
     "alt": "Wuqing Detox Pack",
-    "description": "A bundled selection from the Wuqing range. Ask a distributor for the current pack contents and directions."
+    "description": "A six-bottle Wuqing pack with olive and lemon supplement liquid plus a fruit-and-vegetable beverage.",
+    "details": [
+      {"label": "Olive & Lemon Supplement Liquid", "value": "2 bottles × 100 ml each (200 ml total)"},
+      {"label": "Detox Beverage Fruit-Vegetable Beverage", "value": "4 bottles × 100 ml each (400 ml total)"},
+      {"label": "Pack total", "value": "6 bottles · 600 ml total"}
+    ],
+    "detailsNote": "The source page does not provide a complete ingredient or allergen list or directions for use. Check the product packaging and confirm current pack contents with a Norland Kenya distributor.",
+    "detailsSource": "https://www.norland-international.com/h-col-136.html"
   },
   {
     "name": "Healthway Vision Vital Capsules",
@@ -212,43 +219,43 @@ window.norlandProducts = [
   {
     "name": "Vmax Fish Oil Capsules",
     "price": "KSh 3,588.00",
-    "image": "assets/images/norland-logo.png",
-    "alt": "Norland Kenya",
+    "image": "assets/images/vmax-fish-oil-capsules.jpg",
+    "alt": "Vmax Fish Oil Soft Capsules bottle",
     "description": "Capsules from the Vmax Fish Oil range. Refer to the label for ingredients and serving guidance."
   },
   {
     "name": "Vmax NMN Capsules",
     "price": "KSh 4,056.00",
-    "image": "assets/images/norland-logo.png",
-    "alt": "Norland Kenya",
+    "image": "assets/images/vmax-nmn-capsules.jpg",
+    "alt": "Vmax NMN Capsules bottle",
     "description": "Capsules from the Vmax NMN range. Check the product packaging for ingredients and directions."
   },
   {
     "name": "Vmax Seabuckthorn Oil Capsules",
     "price": "KSh 4,056.00",
-    "image": "assets/images/norland-logo.png",
-    "alt": "Norland Kenya",
+    "image": "assets/images/vmax-seabuckthorn-oil-capsules.jpg",
+    "alt": "Vmax Seabuckthorn Oil Capsules bottle",
     "description": "Capsules from the Vmax Seabuckthorn Oil range. Refer to the label for product and serving details."
   },
   {
     "name": "Vmax Produce and Meat Purifier",
     "price": "KSh 10,140.00",
-    "image": "assets/images/norland-logo.png",
-    "alt": "Norland Kenya",
+    "image": "assets/images/vmax-produce-meat-purifier.jpg",
+    "alt": "Vmax Produce and Meat Purifier device",
     "description": "A Vmax product for use with produce and meat. Follow the package instructions for preparation and use."
   },
   {
     "name": "Vmax Intelligent Electronic Massager",
     "price": "KSh 17,160.00",
-    "image": "assets/images/norland-logo.png",
-    "alt": "Norland Kenya",
+    "image": "assets/images/vmax-intelligent-electronic-massager.jpg",
+    "alt": "Vmax Intelligent Electronic Massager device",
     "description": "An electronic massager from the Vmax range. Check the product manual for operation and safety instructions."
   },
   {
     "name": "Biolive Skin Care Series",
     "price": "KSh 18,720.00",
-    "image": "assets/images/norland-logo.png",
-    "alt": "Norland Kenya",
+    "image": "assets/images/biolive-skin-care-series.jpg",
+    "alt": "Vmax Biolive skin care set with product box and skincare bottles",
     "description": "A collection in the Biolive skin care range. Ask a distributor about the products included in the current series."
   }
 ];
